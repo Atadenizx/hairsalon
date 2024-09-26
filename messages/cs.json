@@ -1,0 +1,92 @@
+{
+  "HomePage": {
+    "metadata": {
+      "title": "Kadeřnictví",
+      "description": "Nabízíme profesionální vlasové služby pro všechny styly."
+    },
+    "title": "Vítejte v našem kadeřnictví",
+    "description": "Nabízíme profesionální vlasové služby pro všechny styly.",
+    "contact": "Kontaktujte nás",
+    "phone": "Telefon",
+    "address": "Adresa",
+    "promotion": {
+      "headline": "Získejte 20% slevu pro studenty s kartou ISIC!",
+      "description": "Děkujeme všem našim studentům! Získejte exkluzivní slevu 20 % na naše kadeřnické služby při předložení karty ISIC.",
+      "button": "Rezervace"
+    },
+    "services": {
+      "headline": "Naše služby",
+      "description": "Nabízíme širokou škálu kvalitních kadeřnických služeb pro každý styl. Ať už hledáte módní střih, hladký foukaný účes nebo profesionální barvení, naši stylisté jsou tu, aby vám pomohli.",
+      "list": {
+        "list1": "Střihy a styling",
+        "list2": "Profesionální barvení vlasů",
+        "list3": "Keratinové kúry",
+        "list4": "Svatební a eventové účesy",
+        "list5": "Úprava a střihání vousů"
+      }
+    },
+    "stylists": {
+      "headline": "Naši stylisté",
+      "description": "Náš tým talentovaných stylistů se zaměřuje na to, abyste se cítili a vypadali úžasně. Díky dlouholetým zkušenostem a vášni pro péči o vlasy se budete cítit jako nejlepší verze sebe sama.",
+      "list": {
+        "list1": {
+          "name": "Anna Nováková",
+          "role": "Senior stylistka, expertka na barvení vlasů"
+        },
+        "list2": {
+          "name": "Eva Dvořáková",
+          "role": "Kreativní stylistka, specializující se na moderní střihy"
+        },
+        "list3": {
+          "name": "Karolína Svobodová",
+          "role": "Specialistka na svatební a eventové účesy"
+        }
+      }
+    }
+  },
+
+  "Header": {
+    "LangSwitcher": {
+      "Drpdwnmnutrgger": "Čeština",
+      "Drpdwnmnulbl": "Vyberte jazyk",
+      "Drpdwnmnuchckbxitem1": "Angličtina",
+      "Drpdwnmnuchckbxitem2": "Čeština"
+    },
+    "NavList": {
+      "home": "Domů",
+      "reservation": "Rezervace",
+      "services": "Služby",
+      "about": "O nás",
+      "lookbook": "Lookbook"
+    },
+    "Logo": {
+      "title": "Elegance Hair Studio",
+      "reservation": "Rezervace"
+    }
+  },
+  "ReservationPage": {
+    "metadata": {
+      "title": "Rezervace",
+      "description": "Zarezervujte si termín pro naše služby"
+    },
+    "title": "Rezervace",
+    "description": "Zarezervujte si schůzku nyní!",
+    "nameLabel": "Jméno a Příjmení",
+    "namePlaceholder": "Jméno a Příjmení",
+    "emailLabel": "Email",
+    "emailPlaceholder": "Email",
+    "phoneLabel": "Telefonní číslo",
+    "phonePlaceholder": "Telefonní číslo",
+    "dateLabel": "Datum schůzky",
+    "datePlaceholder": "Vyberte datum",
+    "studentCheckbox": "Jsem student",
+    "submitButton": "Rezervovat nyní"
+  },
+  "Footer": {
+    "title": "Zůstaňte ve spojení",
+    "description": "Sledujte nás na sociálních sítích a zůstaňte informováni o našich nejnovějších nabídkách a službách.",
+    "aboutUs": "O nás",
+    "services": "Služby",
+    "contact": "Kontakt"
+  }
+}

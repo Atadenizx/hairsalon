@@ -1,0 +1,92 @@
+{
+  "HomePage": {
+    "metadata": {
+      "title": "Hair Dresser",
+      "description": "Hair dresser website home page"
+    },
+    "title": "Welcome to Our Hairdresser Shop",
+    "description": "We offer professional hair services for all styles.",
+    "contact": "Contact us",
+    "phone": "Phone",
+    "address": "Address",
+
+    "promotion": {
+      "headline": "Get 20% Off for Students with ISIC Card!",
+      "description": "As a thank you to all our student customers, we're offering an exclusive discount for those with an ISIC card. Treat yourself to our premium styling services and save 20%!",
+      "button": "Reservation"
+    },
+    "services": {
+      "headline": "Our Services",
+      "description": "We offer a wide range of high-quality hair services to suit every style. Whether you're looking for a trendy cut, a sleek blowout, or professional coloring, our stylists are here to help.",
+      "list": {
+        "list1": "Haircuts and Styling",
+        "list2": "Professional Hair Coloring",
+        "list3": "Keratin Treatments",
+        "list4": "Bridal and Event Styling",
+        "list5": "Beard Grooming and Trimming"
+      }
+    },
+    "stylists": {
+      "headline": "Meet Our Stylists",
+      "description": "Our team of talented stylists is dedicated to making you look and feel amazing. With years of experience and a passion for hair care, they ensure you leave feeling your best.",
+      "list": {
+        "list1": {
+          "name": "Anna Nováková",
+          "role": "Senior Stylist, Expert in Color Treatments"
+        },
+        "list2": {
+          "name": "Eva Dvořáková",
+          "role": "Creative Stylist, Specializing in Modern Cuts"
+        },
+        "list3": {
+          "name": "Karolína Svobodová",
+          "role": "Wedding and Event Styling Specialist"
+        }
+      }
+    }
+  },
+  "Header": {
+    "LangSwitcher": {
+      "Drpdwnmnutrgger": "English",
+      "Drpdwnmnulbl": "Choose language",
+      "Drpdwnmnuchckbxitem1": "English",
+      "Drpdwnmnuchckbxitem2": "Czech"
+    },
+    "NavList": {
+      "home": "Home",
+      "reservation": "Reservation",
+      "services": "Services",
+      "about": "About",
+      "lookbook": "Lookbook"
+    },
+    "Logo": {
+      "title": "Elegance Hair Studio",
+      "reservation": "Reservation"
+    }
+  },
+  "ReservationPage": {
+    "metadata": {
+      "title": "Reservation",
+      "description": "Book an appointment for our services"
+    },
+    "title": "Reservation",
+    "description": "Book an appointment now!",
+    "nameLabel": "Name and Surname",
+    "namePlaceholder": "Name and Surname",
+    "emailLabel": "Email",
+    "emailPlaceholder": "Email",
+    "phoneLabel": "Phone Number",
+    "phonePlaceholder": "Phone Number",
+    "dateLabel": "Appointment Day",
+    "datePlaceholder": "Pick a date",
+    "studentCheckbox": "I am a student",
+    "submitButton": "Book now!"
+  },
+  "Footer": {
+    "title": "Stay Connected",
+    "description": "Follow us on social media and stay updated with our latest offers and services.",
+    "aboutUs": "About Us",
+    "services": "Services",
+    "contact": "Contact"
+  }
+}
