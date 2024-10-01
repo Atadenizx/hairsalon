@@ -21,12 +21,20 @@ import { Checkbox } from "@/components/ui/checkbox";
 import { format } from "date-fns";
 import { useTranslations } from "next-intl";
 
+type FormData = {
+  name: string;
+  email: string;
+  phone: string;
+  date: Date | undefined;
+  isStudent: boolean;
+};
+
 export default function Reservation() {
-  const [formData, setFormData] = useState({
+  const [formData, setFormData] = useState<FormData>({
     name: "",
     email: "",
     phone: "",
-    date: null,
+    date: undefined,
     isStudent: false,
   });
 
@@ -112,7 +120,7 @@ export default function Reservation() {
                 <PopoverContent>
                   <Calendar
                     mode="single"
-                    selected={formData.date}
+                    selected={formData.date ?? undefined}
                     onSelect={(date) =>
                       setFormData((prev) => ({ ...prev, date }))
                     }
