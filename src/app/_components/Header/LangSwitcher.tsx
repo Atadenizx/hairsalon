@@ -19,7 +19,7 @@ export default function LangSwitcher() {
   const pathname = usePathname();
   const t = useTranslations("Header.LangSwitcher");
 
-  function handleLocaleChange(newLocale: string): void {
+  function handleLocaleChange(newLocale: "en" | "cs"): void {
     router.replace(pathname, { locale: newLocale });
   }
 
