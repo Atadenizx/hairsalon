@@ -7,8 +7,10 @@ import Stylists from "../_components/HomePage/Stylists";
 import LookbookGrid from "../_components/HomePage/LookbookGrid";
 import Reservation from "@/app/_components/HomePage/Reservation";
 import Footer from "../_components/HomePage/Footer";
+import { unstable_setRequestLocale } from "next-intl/server";
 
-export default function HomePage() {
+export default function HomePage({ params: { locale } }) {
+  unstable_setRequestLocale(locale);
   const t = useTranslations("HomePage");
 
   return (
