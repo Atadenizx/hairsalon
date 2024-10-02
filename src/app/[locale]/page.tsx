@@ -9,7 +9,13 @@ import Reservation from "@/app/_components/HomePage/Reservation";
 import Footer from "../_components/HomePage/Footer";
 import { unstable_setRequestLocale } from "next-intl/server";
 
-export default function HomePage({ params: { locale } }) {
+type HomePageProps = {
+  params: {
+    locale: string;
+  };
+};
+
+export default function HomePage({ params: { locale } }: HomePageProps) {
   unstable_setRequestLocale(locale);
   const t = useTranslations("HomePage");
 
