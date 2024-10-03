@@ -8,12 +8,26 @@ import LookbookGrid from "../_components/HomePage/LookbookGrid";
 import Reservation from "@/app/_components/HomePage/Reservation";
 import Footer from "../_components/HomePage/Footer";
 import { unstable_setRequestLocale } from "next-intl/server";
+import { getTranslations } from "next-intl/server";
 
 type HomePageProps = {
   params: {
     locale: string;
   };
 };
+
+export async function generateMetadata({
+  params: { locale },
+}: {
+  params: { locale: string };
+}) {
+  const t = await getTranslations("HomePage");
+
+  return {
+    title: t("metadata.title"),
+    description: t("metadata.description"),
+  };
+}
 
 export default function HomePage({ params: { locale } }: HomePageProps) {
   unstable_setRequestLocale(locale);
@@ -76,4 +90,8 @@ export default function HomePage({ params: { locale } }: HomePageProps) {
       </footer>
     </div>
   );
+}
+
+export async function generateStaticParams() {
+  return [{ locale: "en" }, { locale: "cs" }]; // Add the list of locales here
 }

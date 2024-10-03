@@ -33,16 +33,3 @@ export default async function RootLayout({
     </html>
   );
 }
-
-export async function generateMetadata({
-  params: { locale },
-}: {
-  params: { locale: string };
-}) {
-  const t = await getTranslations("HomePage");
-
-  return {
-    title: t("metadata.title"),
-    description: t("metadata.description"),
-  };
-}
